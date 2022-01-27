@@ -8,6 +8,7 @@ public class Main {
         if (isStuffDone()) {
             state = "cool";
         }
+        System.out.println(state);
     }
 
     private static String doStuff() {
