@@ -8,4 +8,8 @@ public class Main {
     private static String doStuff() {
         return "Stuff done";
     }
+
+    private static boolean isStuffDone() {
+        return true;
+    }
 }
