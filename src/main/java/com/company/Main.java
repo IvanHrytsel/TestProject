@@ -4,7 +4,7 @@ public class Main {
     private static String state;
 
     public static void main(String[] args) {
-        doStuff();
+        String stuffStatus = doStuff();
         if (isStuffDone()) {
             state = "cool";
         }
