@@ -9,6 +9,9 @@ public class Main {
             state = "cool";
         }
         System.out.println(state);
+        if (1 == 1) {
+            state = "Still checks out";
+        }
     }
 
     private static String doStuff() {
